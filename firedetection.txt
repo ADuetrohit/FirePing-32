@@ -1,0 +1,27 @@
+Project Title: FirePulse 32 – ESP32-Based Fire Detection System with Buzzer & Telegram Alerts
+
+Overview:
+FirePulse 32 is a compact and efficient fire detection system that uses an ESP32 microcontroller, IR flame sensor, buzzer, and BC547 transistor for switching. In addition to local audio alerts, the system sends real-time Telegram messages to notify users remotely when a flame is detected. This project is ideal for safety monitoring in homes, labs, workshops, or small industrial setups.
+
+Component	        Quantity
+ESP32 Dev Board	            1
+IR Flame Sensor Module	    1
+Piezo Buzzer	            1
+BC547 NPN Transistor   	    1
+1kΩ Resistor	            1
+Breadboard/PCB	            1
+Jumper Wires	        As needed
+USB Cable (for ESP32)  	    1
+Power Supply (5V)	    1
+
+
+System Functionality:
+
+The IR flame sensor detects the presence of fire or flame by sensing infrared light.
+The output signal from the sensor is read by the ESP32, which processes the input in real time.
+
+
+When fire is detected:
+The buzzer is activated via the BC547 transistor, which acts as a switch to handle higher current for the buzzer.
+A Telegram message is sent instantly using the Telegram Bot API, alerting the user on their phone or PC.
+The system is modular and can be extended with other features like IoT dashboards, SMS alerts, or integration with home automation platforms.
