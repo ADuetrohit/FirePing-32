@@ -6,8 +6,8 @@ const char* ssid = "Galaxy";
 const char* password = "123456789";
 
 // Telegram Bot
-String botToken = "8011062444:AAG9kEs-lrM7A6zBNbP37exvWLpA7TTVCsw";
-String chatID = "1677381765"; // Your Telegram chat ID
+String botToken = "add your bot token here ";
+String chatID = "00000000"; // Your Telegram chat ID
 
 WiFiServer server(80);
 
